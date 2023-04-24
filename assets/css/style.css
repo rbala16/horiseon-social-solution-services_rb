@@ -1,30 +1,32 @@
+/*Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/*Header styling*/
+header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +34,15 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* image styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -68,12 +71,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*main content styling */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*Side bar Styling*/
 
 .benefits {
     margin-right: 20px;
@@ -187,14 +191,15 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*footer styling*/
 
-.footer {
+.bottom {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.bottom h4 {
     font-size: 20px;
 }
